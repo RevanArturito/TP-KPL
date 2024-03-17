@@ -9,6 +9,8 @@ public class HaloGeneric
     private static void Main(string[] args)
     {
         HaloGeneric generic = new HaloGeneric();
-        generic.SapaUser("Repan");
+        Console.Write("Nama : ");
+        String nama = Console.ReadLine();
+        generic.SapaUser(nama);
     }
 };
